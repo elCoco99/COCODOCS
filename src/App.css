@@ -113,10 +113,12 @@ main {
 .p-title {
   width: 100%;
   text-align: center;
+  border-bottom: 1px solid darkgray;
 }
 
 .contenido {
   width: 80%;
+  text-align: justify;
 }
 
 .row {
@@ -128,8 +130,39 @@ main {
   width: 40%;
   text-align: center;
   user-select: none; 
+  margin: 20px 0;
 }
 
 .indice ul {
+  display: flex;
+  flex-direction: column;
   list-style: none;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.indice li {
+  padding: 10px;
+  transition: color, background-color, font-weight linear 80ms;
+  border-radius: 10px 0 0 10px;
+}
+.indice li:hover {
+  background-color: darkgray;
+  font-weight: 500;
+  color: black;
+}
+.indice a {
+  width: 100%;
+}
+.indice a:link {
+  text-decoration: none;
+}
+.indice a:visited {
+  text-decoration: none;
+  color: darkgrey;
+}
+
+.indice a:visited:hover {
+  text-decoration: none;
+  color: black;
 }
