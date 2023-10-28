@@ -16,6 +16,7 @@ nav {
   font-family: 'Garde';
   color: #ebffff;
   text-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 15px #fff, 0 0 10px #38eeff, 0 0 50px #38eeff;
+  user-select: none; 
 }
 
 .logo-container {
@@ -34,6 +35,7 @@ nav {
   display:flex;
   flex-direction: row;
   min-width: 310px;
+  user-select: none; 
 }
 
 .list-cont ul {
@@ -44,7 +46,6 @@ nav {
 }
 
 .list-cont li {
-  display: grid;
   height: 100%;
   list-style: none;
   padding: 5px 10px;
@@ -73,6 +74,7 @@ main {
 /* sidebar */ 
 .sidebar {
   width: 35%;
+  user-select: none; 
 }
 
 .sidebar ul {
@@ -125,5 +127,9 @@ main {
 .indice {
   width: 40%;
   text-align: center;
+  user-select: none; 
+}
 
+.indice ul {
+  list-style: none;
 }
