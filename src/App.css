@@ -1,0 +1,129 @@
+/* barra de navegacion */
+
+nav {
+  min-height: 80px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 580px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid gray;
+}
+
+.nav-logo-title {
+  font-family: 'Garde';
+  color: #ebffff;
+  text-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 15px #fff, 0 0 10px #38eeff, 0 0 50px #38eeff;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#logo-title {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.list-cont {
+  display:flex;
+  flex-direction: row;
+  min-width: 310px;
+}
+
+.list-cont ul {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  margin-right: 15px;
+}
+
+.list-cont li {
+  display: grid;
+  height: 100%;
+  list-style: none;
+  padding: 5px 10px;
+  gap: 20px;
+  transition: color, background-color, border-radius, font-weight linear 80ms;
+}
+
+.list-cont li:hover {
+  background-color: darkgray;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  color:black;
+  border-radius: 10px;
+}
+
+/* */ 
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+}
+/* sidebar */ 
+.sidebar {
+  width: 35%;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.sidebar h1 {
+  text-align: center;
+}
+
+
+.sidebar li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: 3rem;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: background-color, color, font-weight, font-size linear 80ms;
+}
+
+.sidebar li:hover {
+  background-color: darkgray;
+  font-weight: 700;
+  color:black;
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+
+/* */ 
+.principal {
+  width: 100%;
+}
+
+.p-title {
+  width: 100%;
+  text-align: center;
+}
+
+.contenido {
+  width: 80%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.indice {
+  width: 40%;
+  text-align: center;
+
+}
